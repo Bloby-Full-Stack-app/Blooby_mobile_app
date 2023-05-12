@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Titre</string>
+    <string name="description">Description</string>
+    <string name="posts">Publications</string>
+    <string name="people">Contacts</string>
+    <string name="music">Musique</string>
+    <string name="settings">Parametres</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="register">Inscription</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Exp: email@example.com</string>
+    <string name="password">Mot de passe</string>
+    <string name="username">Pseudo</string>
+    <string name="password_hint">Tapez un mot de passe fort</string>
+    <string name="username_hint">Tapez vore pseudo</string>
+    <string name="create_a_new_post">Créer une publication</string>
+    <string name="title_hint">Tapez le titre</string>
+    <string name="description_hint">Tapez la description</string>
+    <string name="add_post">Ajouter une publication</string>
+    <string name="password_hint_login">Tapez votre mot de passe</string>
+    <string name="sign_in">Connexion</string>
+    <string name="forgot_your_password">Mot de passe oublié ?</string>
+    <string name="sign_up">Inscription</string>
+    <string name="login">Connexion</string>
+    <string name="you_don_t_have_an_account">Vous n\'avez pas de compte ?</string>
+    <string name="password_reset">Reinitialisation du mot de passe</string>
+    <string name="home">Accueil</string>
+    <string name="search">Recherche</string>
+    <string name="chat">Messagerie</string>
+    <string name="social">Social</string>
+    <string name="profile">Profil</string>
+    <string name="fullName">Nom complet</string>
+    <string name="logout">Deconnexion</string>
+    <string name="edit_profile">Modifier profil</string>
+    <string name="logout_message">Êtes-vous sur de vouloir vous déconnecter ?</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoibWFoZXJhbGkiLCJhIjoiY2wyZXRvMXc5MDQwbzNlbnpod2l3Nm9sMSJ9.HIzNbLYMYAhRFr9c9FxlkQ</string>
+</resources>

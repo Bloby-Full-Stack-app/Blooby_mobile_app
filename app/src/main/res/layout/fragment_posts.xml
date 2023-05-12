@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.PostsFragment">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/postsSL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:shimmer_duration="1000"
+        app:shimmer_repeat_mode="restart"
+        app:shimmer_shape="linear">
+
+        <include layout="@layout/single_post_shimmer" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerVideos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</FrameLayout>

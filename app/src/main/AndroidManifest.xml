@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tn.esprit.looby">
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/exchange"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/exchange"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="tn.esprit.looby.ui.activities.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.EditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tn.esprit.looby.ui.activities.ForgotPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.ResetCodeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.NewPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="tn.esprit.looby.ui.activities.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.CreateActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="chicky"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="tn.esprit.looby.ui.activities.SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.MusicActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="tn.esprit.looby.ui.activities.PostActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>
